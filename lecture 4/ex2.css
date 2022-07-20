@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: aquamarine;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+
+main{
+    background-color:bisque;
+    flex:1 ;
+    
+}
+
+footer{
+    background-color: aquamarine;
+}
+
+#main{
+    display: flex;
+    margin:10px
+}
+
+#left{
+    background-color: blue;
+    width: 30%;
+    min-width: 200px;
+}
+
+#right{
+    background-color: blue;
+    width: 15%;
+}
