@@ -24,7 +24,6 @@ function verify() {
     for (let i = 0; i < p1.length; i ++) {
         let c = charAt(i);
         if ('A' >= c && c <= 'z'){
-            uppercase = true;
             break;
         }
     }
